@@ -12,4 +12,4 @@ Deployment target 9.0
 
 
 #### Next versions:
-* Second view controller to get weaather forecast for any cities from list.
+* Second view controller to get weather forecast for any cities from list.
