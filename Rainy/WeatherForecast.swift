@@ -14,36 +14,22 @@ class WeatherForecast {
     
     var currentCityName: String
     var weatherDescription: String
-    var currentWeatherTemp: Double?
+    var weatherTemp: Double?
     var imageName: String
-    var timestamp:  Double
+    var date:  Date
     var humidity: Double
     var windSpeed: Double
-    var locationCoordinates: (Double, Double)
-    
+    var locationCoordinates: (Double, Double)    
     
     init() {
         currentCityName = ""
         weatherDescription = ""
-        currentWeatherTemp = 0
+        weatherTemp = 0
         imageName = ""
-        timestamp = 0
+        date = Date()
         humidity = 0
         windSpeed = 0
         locationCoordinates = (0,0)
     }
-    
-   /* init(currentCityName: String, weatherDescription: String, currentWeatherTemp: Double?, imageName: String, timestamp: Double, humidity: Double, windSpeed: Double, locationCoordinates: (Double, Double)) {
-        self.currentCityName = currentCityName
-        self.weatherDescription = weatherDescription
-        self.currentWeatherTemp = currentWeatherTemp
-        self.imageName = imageName
-        self.timestamp = timestamp
-        self.humidity = humidity
-        self.windSpeed = windSpeed
-         self.locationCoordinates = locationCoordinates
-    } */
-    
-
     
 }

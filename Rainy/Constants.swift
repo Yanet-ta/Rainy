@@ -9,6 +9,13 @@
 import Foundation
 
 class Constants {
-
-    static let apiKey = ""
+    static let apiKey = "5066b0504c4e451299882926f971dbc1"
+    
+    static let defaultCityNameString = "Samara"
+    static let defaultDateStringFormat = "dd/MM/yyyy"
+    static let defaultMaxDayCount = 16 //максимальное кол-во дней для получения прогноза погоды
+    static let urlString = "http://api.openweathermap.org/data/2.5/weather"
+    static let urlForecastString = "http://api.openweathermap.org/data/2.5/forecast/daily"
+    static let urlImageString = "http://openweathermap.org/img/w/"
 }
+
