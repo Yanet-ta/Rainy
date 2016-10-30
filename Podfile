@@ -9,5 +9,6 @@ target 'Rainy' do
   pod 'Alamofire', '~> 4.0'
   pod 'INTULocationManager'
   pod 'SDWebImage', '~>3.8'
+  pod 'BSKeyboardControls', '~> 2.2'
   
 end
